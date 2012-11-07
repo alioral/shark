@@ -49,12 +49,6 @@ def getAllFollowings(url):
 	
 	return
 
-'''
-employeeList = getMembers("https://github.com/vmware?tab=members")
-    
-topHackerCount = 2 #Select the top N hacker to crawl
-'''
-
 def helloWorld():
 	print 'Hello, World'
 
@@ -107,4 +101,4 @@ if (len(sys.argv) > 3):
 
 employeeList = getMembers(url)
 hackers =  crawlWithDepth(depth, employeeList, topHackerCount)
-print 'Guys you should take a look: ' + str(hackers)
+print 'Hackers you should take a look: ' + str(hackers)
