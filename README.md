@@ -3,7 +3,7 @@
 <p>Shark is a web crawler that helps you *possibly* 
 find great coders using the Github Network. </p>
 
-<p><b>Idea:</b> Since nowadays every tech company from startups to huge corporations, 
+<p><h3>Idea</h3> Since nowadays every tech company from startups to huge corporations, 
 take Github into consideration and would like to hire best hackers, 
 Shark helps them out by relying on some of the facts I've pre-defined.
 It all starts by the user choosing a company. 
@@ -19,14 +19,14 @@ than being followed by a talented engineer?)
 
 <p>
 	<h3>Parameters:</h3>
-		<code>shark.py <github_company_url> <depth> <num_of_hackers></code>
-	</p>
+	<code>shark.py <github_company_url> <depth> <num_of_hackers></code>
+</p>
 <p>
 	<h3>Example: </h3>
 	<code>python shark.py https://github.com/joyent 2</code>
 </p>
 <p>
-	<b>Algorithm:</b>
+	<h3>Algorithm:</h3>
 	
 	<ol>
 		<li>For given company URL, retrieve all the members</li>
