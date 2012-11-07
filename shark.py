@@ -49,9 +49,6 @@ def getAllFollowings(url):
 	
 	return
 
-def helloWorld():
-	print 'Hello, World'
-
 def crawlWithDepth(depth, hackersToCrawl, topHackerCount):
 	if depth > 0:
 		for i in xrange(len(hackersToCrawl)):
