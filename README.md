@@ -1,11 +1,11 @@
-<h2>ShARK</h2>
+<h2>Shark</h2>
 
 <p>Shark is a web crawler that helps you *possibly* 
 find great coders using the Github Network. </p>
 
 <p><b>Idea:</b> Since nowadays every tech company from startups to huge corporations, 
 take Github into consideration and would like to hire best hackers, 
-ShARK helps them out by relying on some of the facts I've pre-defined.
+Shark helps them out by relying on some of the facts I've pre-defined.
 It all starts by the user choosing a company. 
 The reason is for that we would *again, possibly* 
 trust the endorsements(in this case endorsements are being followed by the company member) 
